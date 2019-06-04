@@ -1,100 +1,11 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "RoomStore"
 provides-nominal:
-- "5Rooms9RoomStoreC"
 provides-member:
-- ["5Rooms9RoomStoreC", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- "BindableObject"
-- "Room"
-- "RoomStore"
 depends-member:
-- ["7SwiftUI14BindableObjectP", "ID"]
-- ["7SwiftUI14BindableObjectP", "IdentifiedValue"]
-- ["7SwiftUI14BindableObjectP", "PublisherType"]
-- ["7SwiftUI14BindableObjectP", ""]
-- ["7SwiftUI14BindableObjectP", "_Default_ID"]
-- ["7SwiftUI14BindableObjectP", "_Default_IdentifiedValue"]
-- ["7SwiftUI14BindableObjectP", "_Default_PublisherType"]
-- ["7SwiftUI14BindableObjectP", "_isUnary"]
-- ["7SwiftUI14BindableObjectP", "_makeLink"]
-- ["7SwiftUI14BindableObjectP", "_makeLinkForState"]
-- ["7SwiftUI14BindableObjectP", "didChange"]
-- ["7SwiftUI14BindableObjectP", "id"]
-- ["7SwiftUI14BindableObjectP", "identifiedValue"]
-- !private ["7SwiftUI14BindableObjectP", "rooms"]
-- ["7SwiftUI14BindableObjectP", "update"]
-- ["7SwiftUI19DynamicViewPropertyP", "ID"]
-- ["7SwiftUI19DynamicViewPropertyP", "IdentifiedValue"]
-- ["7SwiftUI19DynamicViewPropertyP", "PublisherType"]
-- ["7SwiftUI19DynamicViewPropertyP", ""]
-- ["7SwiftUI19DynamicViewPropertyP", "_Default_ID"]
-- ["7SwiftUI19DynamicViewPropertyP", "_Default_IdentifiedValue"]
-- ["7SwiftUI19DynamicViewPropertyP", "_Default_PublisherType"]
-- ["7SwiftUI19DynamicViewPropertyP", "_isUnary"]
-- ["7SwiftUI19DynamicViewPropertyP", "_makeLink"]
-- ["7SwiftUI19DynamicViewPropertyP", "_makeLinkForState"]
-- ["7SwiftUI19DynamicViewPropertyP", "didChange"]
-- ["7SwiftUI19DynamicViewPropertyP", "id"]
-- ["7SwiftUI19DynamicViewPropertyP", "identifiedValue"]
-- !private ["7SwiftUI19DynamicViewPropertyP", "rooms"]
-- ["7SwiftUI19DynamicViewPropertyP", "update"]
-- ["7SwiftUI12IdentifiableP", "ID"]
-- ["7SwiftUI12IdentifiableP", "IdentifiedValue"]
-- ["7SwiftUI12IdentifiableP", "PublisherType"]
-- ["7SwiftUI12IdentifiableP", ""]
-- ["7SwiftUI12IdentifiableP", "_Default_ID"]
-- ["7SwiftUI12IdentifiableP", "_Default_IdentifiedValue"]
-- ["7SwiftUI12IdentifiableP", "_Default_PublisherType"]
-- ["7SwiftUI12IdentifiableP", "_isUnary"]
-- ["7SwiftUI12IdentifiableP", "_makeLink"]
-- ["7SwiftUI12IdentifiableP", "_makeLinkForState"]
-- ["7SwiftUI12IdentifiableP", "didChange"]
-- ["7SwiftUI12IdentifiableP", "id"]
-- ["7SwiftUI12IdentifiableP", "identifiedValue"]
-- !private ["7SwiftUI12IdentifiableP", "rooms"]
-- ["7SwiftUI12IdentifiableP", "update"]
-- ["5Rooms9RoomStoreC", "ID"]
-- ["5Rooms9RoomStoreC", "IdentifiedValue"]
-- ["5Rooms9RoomStoreC", "PublisherType"]
-- ["5Rooms9RoomStoreC", "Room"]
-- ["5Rooms9RoomStoreC", "_Default_ID"]
-- ["5Rooms9RoomStoreC", "_Default_IdentifiedValue"]
-- ["5Rooms9RoomStoreC", "_Default_PublisherType"]
-- ["5Rooms9RoomStoreC", "_isUnary"]
-- ["5Rooms9RoomStoreC", "_makeLink"]
-- ["5Rooms9RoomStoreC", "_makeLinkForState"]
-- ["5Rooms9RoomStoreC", "deinit"]
-- ["5Rooms9RoomStoreC", "didChange"]
-- ["5Rooms9RoomStoreC", "id"]
-- ["5Rooms9RoomStoreC", "identifiedValue"]
-- ["5Rooms9RoomStoreC", "init"]
-- ["5Rooms9RoomStoreC", "rooms"]
-- ["5Rooms9RoomStoreC", "update"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "ID"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "IdentifiedValue"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "PublisherType"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", ""]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "_Default_ID"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "_Default_IdentifiedValue"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "_Default_PublisherType"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "_isUnary"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "_makeLink"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "_makeLinkForState"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "didChange"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "id"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "identifiedValue"]
-- !private ["7SwiftUI27_BindableObjectViewPropertyP", "rooms"]
-- ["7SwiftUI27_BindableObjectViewPropertyP", "update"]
 depends-nominal:
-- "7SwiftUI14BindableObjectP"
-- "7SwiftUI19DynamicViewPropertyP"
-- "7SwiftUI12IdentifiableP"
-- "5Rooms9RoomStoreC"
-- "7SwiftUI27_BindableObjectViewPropertyP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/SwiftUI.framework/Modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
@@ -1274,4 +1185,4 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8d212828158ddb9db01c3bbda8dfad80"
+interface-hash: "d41d8cd98f00b204e9800998ecf8427e"

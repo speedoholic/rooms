@@ -19,9 +19,6 @@ struct RoomDetailsView : View {
         ZStack {
             Text(room.name)
                 .font(zoomed ? .title : .body)
-                .tapAction {
-                    withAnimation(self.zoomed.toggle())
-                }
                 .navigationBarTitle(Text("Room one"))
             Image(systemName: "video.fill")
                 .font(.title)

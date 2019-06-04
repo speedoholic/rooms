@@ -9,35 +9,19 @@
 import SwiftUI
 
 struct ContentView : View {
-    @ObjectBinding var store = RoomStore()
-    
     var rooms: [Room] = []
     
     var body: some View {
         VStack {
             NavigationView {
-                Section {
-                    Button(action: addRoom, label: {Text("Add Room")})
-                }
-                Section {
-                    ForEach(store.rooms) {
-                        RoomCell()
-                        }.onDelete(perform: delete)
-                }
+                List(0 ..< 20) { room in
+                    RoomCell()
+                    }.navigationBarTitle(Text("Rooms"))
             }
-        }
+            }
+            
     }
-    
-    func addRoom() {
-        self.store.rooms.append(Room(name: "New Room"))
-    }
-    
-    func delete(offsets: IndexSet) {
-        print("Deleting")
-    }
-
 }
-
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {

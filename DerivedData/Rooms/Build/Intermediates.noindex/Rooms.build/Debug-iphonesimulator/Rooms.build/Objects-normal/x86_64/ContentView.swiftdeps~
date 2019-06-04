@@ -57,6 +57,7 @@ depends-member:
 - ["5Rooms11ContentViewV", "RoomStore"]
 - !private ["5Rooms11ContentViewV", "Section"]
 - !private ["5Rooms11ContentViewV", "Text"]
+- !private ["5Rooms11ContentViewV", "VStack"]
 - ["5Rooms11ContentViewV", "View"]
 - ["5Rooms11ContentViewV", "_Default_Body"]
 - ["5Rooms11ContentViewV", "_makeView"]
@@ -128,7 +129,7 @@ depends-member:
 - !private ["SM", "append"]
 - !private ["10Foundation19MutableDataProtocolP", "append"]
 - !private ["7SwiftUI16NavigationButtonV", "init"]
-- ["7SwiftUI14NavigationViewV", "init"]
+- !private ["7SwiftUI14NavigationViewV", "init"]
 - ["7SwiftUI13ObjectBindingV", "init"]
 - !private ["Sq", "secondary"]
 - !private ["Sq", "subheadline"]
@@ -173,7 +174,7 @@ depends-member:
 - !private ["7SwiftUI4TextV", "font"]
 - !private ["7SwiftUI4TextV", "foregroundColor"]
 - !private ["7SwiftUI4TextV", "init"]
-- !private ["7SwiftUI6VStackV", "init"]
+- ["7SwiftUI6VStackV", "init"]
 - ["7SwiftUI4ViewP", "Body"]
 - !private ["7SwiftUI4ViewP", "Button"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
@@ -293,7 +294,7 @@ depends-nominal:
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - !private "7SwiftUI16NavigationButtonV"
-- "7SwiftUI14NavigationViewV"
+- !private "7SwiftUI14NavigationViewV"
 - "7SwiftUI13ObjectBindingV"
 - !private "Sq"
 - "7SwiftUI15PreviewProviderP"
@@ -309,7 +310,7 @@ depends-nominal:
 - !private "ST"
 - !private "7SwiftUI10ShapeStyleP"
 - !private "7SwiftUI4TextV"
-- !private "7SwiftUI6VStackV"
+- "7SwiftUI6VStackV"
 - "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
 - !private "7SwiftUI12ViewModifierP"

@@ -1,10 +1,10 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.38.29 clang-1100.0.20.14)"
 options: "913e1607e3af0618d99518ed85865883"
-build_time: [1559674215, 770001000]
+build_time: [1559675026, 517530000]
 inputs:
-  "/Users/kushalashok/Desktop/Rooms/Rooms/RoomDetailsView.swift": !dirty [1559673983, 589067289]
+  "/Users/kushalashok/Desktop/Rooms/Rooms/RoomDetailsView.swift": [1559675026, 211917186]
   "/Users/kushalashok/Desktop/Rooms/Rooms/AppDelegate.swift": [1559671302, 441678659]
-  "/Users/kushalashok/Desktop/Rooms/Rooms/SceneDelegate.swift": !dirty [1559671302, 454324173]
+  "/Users/kushalashok/Desktop/Rooms/Rooms/SceneDelegate.swift": [1559671302, 454324173]
   "/Users/kushalashok/Desktop/Rooms/DerivedData/Room.swift": [1559672325, 742888337]
-  "/Users/kushalashok/Desktop/Rooms/Rooms/RoomStore.swift": !dirty [1559674147, 783839009]
-  "/Users/kushalashok/Desktop/Rooms/Rooms/ContentView.swift": !dirty [1559674215, 658635840]
+  "/Users/kushalashok/Desktop/Rooms/Rooms/RoomStore.swift": [1559675026, 415946589]
+  "/Users/kushalashok/Desktop/Rooms/Rooms/ContentView.swift": [1559675018, 268312643]

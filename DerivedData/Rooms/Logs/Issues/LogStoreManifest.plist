@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>A15C1560-1734-40A6-82EA-63CE385DA421</key>
+		<key>E4EDA0E0-824B-43C7-8492-04C2B8F1063F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>A15C1560-1734-40A6-82EA-63CE385DA421.xcactivitylog</string>
+			<string>E4EDA0E0-824B-43C7-8492-04C2B8F1063F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 			</dict>
 			<key>signature</key>
 			<string>Rooms-fptobgqqedbiakfkzcjczgqhhnhc</string>
 			<key>timeStartedRecording</key>
-			<real>581367015.76353896</real>
+			<real>581367826.49060297</real>
 			<key>timeStoppedRecording</key>
-			<real>581367017.59977198</real>
+			<real>581367830.280568</real>
 			<key>title</key>
 			<string>Build target Rooms</string>
 			<key>uniqueIdentifier</key>
-			<string>A15C1560-1734-40A6-82EA-63CE385DA421</string>
+			<string>E4EDA0E0-824B-43C7-8492-04C2B8F1063F</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
